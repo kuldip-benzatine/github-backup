@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/login_bg"
+    tools:context="com.sk.buildingmanagement.Login_Activity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/login_btn"
+        android:background="@drawable/btn_login"
+        android:id="@+id/login_activity_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_below="@+id/login_activity_password_txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        android:textColor="@color/login_btn"
+        android:background="@drawable/btn_login"
+        android:id="@+id/Forget_password"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/login_activity_btn"
+        android:layout_toRightOf="@+id/login_activity_btn"
+        android:layout_toEndOf="@+id/login_activity_btn" />
+
+    <AutoCompleteTextView
+        android:id="@+id/login_activity_email_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="@drawable/txt_login_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingRight="55dp"
+        android:singleLine="true"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <AutoCompleteTextView
+        android:id="@+id/login_activity_password_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:paddingRight="55dp"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:background="@drawable/txt_login_password"
+        android:singleLine="true"
+        android:layout_below="@+id/login_activity_email_txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

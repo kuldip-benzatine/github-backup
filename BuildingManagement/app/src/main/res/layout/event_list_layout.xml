@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/event_list_layout_relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_profile"
+            android:id="@+id/event_list_layout_icon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Event Name"
+            android:textSize="20dp"
+            android:id="@+id/event_list_layout_event_name"
+            android:layout_alignTop="@+id/event_list_layout_icon"
+            android:layout_toRightOf="@+id/event_list_layout_icon"
+            android:layout_toEndOf="@+id/event_list_layout_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Event venus"
+            android:textSize="16dp"
+            android:paddingRight="80dp"
+            android:id="@+id/event_list_layout_event_venus"
+            android:layout_below="@+id/event_list_layout_event_name"
+            android:layout_toRightOf="@+id/event_list_layout_icon"
+            android:layout_toEndOf="@+id/event_list_layout_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="icon Date"
+            android:textSize="10dp"
+            android:id="@+id/event_list_layout_date"
+            android:layout_alignBottom="@+id/event_list_layout_icon"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Icon Time"
+            android:textSize="10dp"
+            android:id="@+id/event_list_layout_time"
+            android:layout_alignTop="@+id/event_list_layout_date"
+            android:layout_toLeftOf="@+id/event_list_layout_date"
+            android:layout_toStartOf="@+id/event_list_layout_date" />
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/event_list_layout_detele_btn"
+            android:text="Delete"
+            android:layout_above="@+id/event_list_layout_date"
+            android:layout_toRightOf="@+id/event_list_layout_time"
+            android:layout_toEndOf="@+id/event_list_layout_time" />
+
+    </RelativeLayout>
+
+<!--
+
+
+-->

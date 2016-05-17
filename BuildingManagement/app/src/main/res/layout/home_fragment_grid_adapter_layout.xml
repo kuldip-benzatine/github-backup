@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/home_fragment_gridview_imagebutton"
+        android:background="@null"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="10dp"
+        android:id="@+id/home_fragment_gridview_textview"
+        android:layout_below="@+id/home_fragment_gridview_imagebutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

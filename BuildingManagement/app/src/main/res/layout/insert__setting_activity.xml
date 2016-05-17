@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.Setting_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Building Type"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/setting_buil_type_txt" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/setting_buil_type_radio_group"
+        android:layout_below="@+id/setting_buil_type_txt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Society"
+            android:id="@+id/setting_society_radio"
+            android:layout_alignTop="@+id/setting_buil_type_txt"
+            android:layout_centerHorizontal="true"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bussiness"
+            android:id="@+id/setting_radio_bussiness_redio"
+            android:checked="false"
+            android:layout_below="@+id/setting_buil_type_txt"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mantanance Type"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/setting_mantanance_info_txt"
+        android:layout_below="@+id/setting_buil_type_radio_group"
+        android:layout_alignRight="@+id/setting_maintanance_amount"
+        android:layout_alignEnd="@+id/setting_maintanance_amount" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/setting_mantanance_info_radio_group"
+        android:layout_below="@+id/setting_mantanance_info_txt"
+        android:layout_alignRight="@+id/setting_maintanance_amount"
+        android:layout_alignEnd="@+id/setting_maintanance_amount">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Per Flat"
+            android:id="@+id/setting_per_flat_radio"
+            android:layout_alignTop="@+id/setting_buil_type_txt"
+            android:layout_centerHorizontal="true"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="per square_ft"
+            android:id="@+id/setting_per_sq_fit_radio"
+            android:checked="false"
+            android:layout_below="@+id/setting_buil_type_txt"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Maintanance Amount per Flat"
+        android:id="@+id/setting_maintanance_amount_txt"
+        android:lines="2"
+        android:singleLine="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/setting_mantanance_info_radio_group"
+        android:layout_alignRight="@+id/setting_save_btn"
+        android:layout_alignEnd="@+id/setting_save_btn" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setting_maintanance_amount"
+        android:layout_alignTop="@+id/setting_maintanance_amount_txt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/setting_maintanance_amount_txt"
+        android:layout_toEndOf="@+id/setting_maintanance_amount_txt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/setting_save_btn"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/setting_maintanance_amount_txt"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

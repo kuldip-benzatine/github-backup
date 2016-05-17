@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/HOME"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="HOME" />
+        <item
+            android:id="@+id/ADD_WINGS"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="ADD WINGS" />
+        <item
+            android:id="@+id/MAINTANANCE_SHEET"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="MAINTANANCE SHEET" />
+        <item
+            android:id="@+id/BUILDING_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="BUILDING INFO" />
+        <item
+            android:id="@+id/EVENTS"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/SHOP_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="SHOP INFO" />
+        <item
+            android:id="@+id/OWNER_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="OWNER INFO" />
+        <item
+            android:id="@+id/COMPLAIN_BOX"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="COMPLAIN BOX" />
+        <item
+            android:id="@+id/SERVICE_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="SERVICE INFO" />
+        <item
+            android:id="@+id/RULES"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="RULES" />
+        <item
+            android:id="@+id/MEMBER_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="MEMBER INFO" />
+        <item
+            android:id="@+id/GENRAL_INFO"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="GENERAL INFO" />
+        <item
+            android:id="@+id/HELP_SUPPORT"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="HELP  AND SUPPORT" />
+        <item
+            android:id="@+id/SETTING"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="SETTING" />
+
+        <item
+            android:id="@+id/LOGOUT"
+            android:icon="@drawable/yellow_drawer_icon"
+            android:title="LOG-OUT" />
+</menu>

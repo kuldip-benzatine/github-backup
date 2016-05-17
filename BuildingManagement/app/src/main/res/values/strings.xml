@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BuildingManagement</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="no_internet">Internet is not availabel</string>
+    <string name="check_pass_confirmation">Password and confirm password are mismatched, Please enter correct password</string>
+    <string name="add_event_check_data_isempty">Please fill up the data</string>
+    <string name="swipe_right">right</string>
+    <string name="email_password_is_null">Please insert proper email and password </string>
+    <string name="deleted_shop_toast">You must select shop is </string>
+    <string name="deleted_shop_is_not_available">This functionality is not available</string>
+
+
+</resources>

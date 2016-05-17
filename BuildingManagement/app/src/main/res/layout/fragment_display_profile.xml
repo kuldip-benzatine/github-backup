@@ -1,0 +1,113 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/fragment_top_margin"
+    tools:context="layout.display_Profile_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="clip_horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/display_profile_cover_img"
+            android:scaleType="fitXY"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/heart1"
+            android:id="@+id/display_profile_circle_img"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/display_profile_name_text"
+                android:text="First and last name"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/s_image"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Address"
+                android:id="@+id/display_profile_email_text"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/s_image"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dislay_profile_contact_no"
+                    android:text="Contact No"
+
+                    android:textSize="18dp"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/s_image"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:id="@+id/display_profile_address"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:singleLine="false"
+                android:maxLines="3"
+                android:drawableLeft="@drawable/s_image"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/display_profile_birth_text"
+                android:text="Birth Date"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/s_image"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:id="@+id/display_profile_gender"
+                android:textSize="18dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/s_image"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="want to update profile ? Click Here"
+                android:id="@+id/display_profile_update_btn"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|bottom" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Shop_no"
+        android:id="@+id/shop_info_adapter_layout_shopno"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="A-101"
+        android:singleLine="false"
+        android:maxLines="2"
+        android:minLines="2"
+        android:id="@+id/shop_info_adapter_layout_shopno_edit_txt"
+        android:layout_below="@+id/shop_info_adapter_layout_shopno"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Square Foot"
+        android:id="@+id/shop_info_adapter_layout_sq_foot"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="sq-foot"
+        android:inputType="number"
+        android:gravity="center"
+        android:id="@+id/shop_info_adapter_layout_sq_foot_edit_txt"
+        android:layout_alignBottom="@+id/shop_info_adapter_layout_switch"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="STATUS"
+        android:id="@+id/shop_info_adapter_layout_Status"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shop_info_adapter_layout_switch"
+        android:checked="false"
+        android:layout_below="@+id/shop_info_adapter_layout_Status"
+        android:layout_alignRight="@+id/shop_info_adapter_layout_Status"
+        android:layout_alignEnd="@+id/shop_info_adapter_layout_Status" />
+
+</RelativeLayout>

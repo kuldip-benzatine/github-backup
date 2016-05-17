@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_user_addwing_img"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rules Title"
+        android:textSize="20dp"
+        android:textColor="#333333"
+        android:id="@+id/rules_list_layout_rules_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rules Description"
+        android:layout_marginLeft="100dp"
+        android:textSize="16dp"
+        android:textColor="#888888"
+        android:singleLine="false"
+
+        android:id="@+id/rules_list_layout_rules_description"
+        android:layout_below="@+id/rules_list_layout_rules_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rules_list_layout_delete_img_btn"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/ic_user_addwing_delete"
+        android:layout_alignTop="@+id/rules_list_layout_edit_img_btn"
+        android:layout_toRightOf="@+id/rules_list_layout_edit_img_btn"
+        android:layout_toEndOf="@+id/rules_list_layout_edit_img_btn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_user_addwing_edit"
+        android:id="@+id/rules_list_layout_edit_img_btn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/rules_list_layout_rules_description"
+        android:layout_alignLeft="@+id/rules_list_layout_rules_description"
+        android:layout_alignStart="@+id/rules_list_layout_rules_description" />
+
+</RelativeLayout>

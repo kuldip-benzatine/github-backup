@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/PROFILE"
+        android:icon="@drawable/ic_profile"
+        android:title="PROFILE" />
+    <item
+        android:id="@+id/ADD_SUBADMIN"
+        android:icon="@drawable/ic_profile"
+        android:title="ADD SUB-ADMIN" />
+    <item
+        android:id="@+id/CHANGE_PASSWORD"
+        android:icon="@drawable/ic_profile"
+        android:title="CHANGE PASSWORD" />
+    <item
+        android:id="@+id/lOG_OUT"
+        android:icon="@drawable/ic_profile"
+        android:title="LOG OUT" />
+</menu>

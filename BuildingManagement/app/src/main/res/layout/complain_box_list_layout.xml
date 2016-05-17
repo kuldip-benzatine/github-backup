@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_profile"
+        android:id="@+id/complain_box_list_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event Name"
+        android:id="@+id/complain_box_list_complain_name"
+        android:layout_alignTop="@+id/complain_box_list_icon"
+        android:layout_toRightOf="@+id/complain_box_list_icon"
+        android:layout_toEndOf="@+id/complain_box_list_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Event venus"
+        android:id="@+id/complain_box_list_complain_description"
+        android:layout_alignBottom="@+id/complain_box_list_icon"
+        android:layout_toRightOf="@+id/complain_box_list_icon"
+        android:layout_toEndOf="@+id/complain_box_list_icon" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/complain_box_list_delete_img_btn"
+        android:layout_alignTop="@+id/complain_box_list_icon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
